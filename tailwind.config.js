@@ -2,14 +2,15 @@
 module.exports = {
   content: ['index.html'],
   theme: {
-    container:{
+    container: {
       center:true,
       padding:'16px',
     },
     extend: {
       colors: {
         darkBlue : "#023047",
-        lightBlue : "#00b4d8"
+        lightBlue : "#00b4d8",
+        secondary : "#64748b"
       },
       screens:{
         '2xl':'1320px',
