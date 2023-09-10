@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family:'Inter',sans-serif;
+}
+.bottomNav {
+    @apply fixed bottom-0 h-16 w-full z-[9999] bg-white bg-opacity-80 rounded lg:top-0 flex items-center justify-center ; 
+    backdrop-filter:blur(50px);
+    box-shadow:inset 0 1px 0 0 rgba(0, 0 , 0, 0.1);
+}
